@@ -1,2 +1,2 @@
 # Meu repositório de exercícios
-ssdssd
+- Aqui iniciarei meus projetos tanto dentro, quanto fora da trybe.
