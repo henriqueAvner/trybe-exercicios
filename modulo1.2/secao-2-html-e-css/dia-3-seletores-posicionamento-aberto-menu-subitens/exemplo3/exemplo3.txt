@@ -1,0 +1,1 @@
+Neste exemplo, mostramos como utilizar listas com mudança de background através dos comandos li:hover e li:active no CSS.
