@@ -1,0 +1,1 @@
+Nesse exemplo mostramos funções em quadrados A,B e C.

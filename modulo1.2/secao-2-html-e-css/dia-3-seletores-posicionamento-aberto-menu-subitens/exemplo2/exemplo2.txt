@@ -1,0 +1,2 @@
+Neste exemplo mostramos a função do posicionamento de imagens com Mario,
+Bowser e Goomba.
