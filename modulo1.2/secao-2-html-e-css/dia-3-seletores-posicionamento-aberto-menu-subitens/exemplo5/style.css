@@ -21,3 +21,10 @@ li{
 li em{
     font-weight: bold;
 }
+#linguagem li:not(:nth-child(n+4)){
+    color: blue;
+
+}
+.cor-rosa{
+    background-color: pink;
+}
