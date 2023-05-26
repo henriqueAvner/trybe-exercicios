@@ -1,38 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio Avner</title>
 </head>
+<style>
+    body {
+        background-color: #ABD1B5;
+    }
+    h1 {
+        font-size: 60px;
+        font-family:monospace;
+        background-color:#56765F;
+        color:aliceblue;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    p {
+        font-size: 25px;
+        font-family: monospace;
+        background-color: #2D4E44;
+        color:aliceblue;
+        border-radius: 20px;
+        padding: 20px;
+    }
+    .back-lista {
+        background-color: #74BEB0;
+        font-size: 28px;
+        font-family: monospace;
+        color: aliceblue;
+        font-weight: bold;
+        padding: 30px;
+        border-radius: 30px;
+    }
+    .sub-titulo{
+        font-family: monospace;
+        color: aliceblue;
+        font-size: 40px;
+        background-color: #56765F;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    a{
+        font-family: monospace;
+        color: aliceblue;
+    }
+
+
+
+</style>
 <body>
     <h1>Avner Henrique Del Peloso de Brito</h1>
-    <img id ="foto" src="imagem-Avner.png" alt="Uma foto de Avner no dia da festa de formatura">
+    <img id ="foto" src="imagem-Avner.png" width="200px" alt="Uma foto de Avner no dia da festa de formatura">
     <p id="sobre">Meu nome é Avner, formando em Educação Física pela UEMG-Ibirité, 
-        tambémformado no ensino médio como <strong>Técnico em informática</strong>, este é
-        o meu <strong>segundo contato com desenvolvimento web</strong>. Sou brasileiro, nascido
-        em <em>Belo Horizonte-MG</em>, e moro em <em>Contagem-MG</em></p>.<br><br>
-        <p id="lista">Das habilidades que possuo:
-        <ul>
+        também formado no ensino médio como <strong>Técnico em informática</strong>, este é o meu <strong>segundo contato com desenvolvimento web</strong>. Sou <strong>brasileiro</strong>, nascido
+        em <em>Belo Horizonte-MG</em>, e moro em <em>Contagem-MG.</em></p>
+        <h2 class="sub-titulo">Das habilidades que possuo:</h2>
+        <ul class="back-lista">
             <li>Git e Github;</li>
             <li>Pacote Office 365;</li>
             <li>Inglês intermediário;</li>
             <li>Disciplina;</li>
             <li>Disposição;</li>
-            <li>Empatia</li>
+            <li>Empatia.</li>
         </ul>
-        </p>
-        <p><a href="#foto">Esta é a minha foto</a></p>
-        <p id="blog"><a href="https://www.twitch.tv/chocoavner" target="_blank">Este é um dos meus passa-tempos preferidos</a></p><br><br><br>
 
-        <p><a href="#sobre">Sobre mim</a></p>
-        <p><a href="#lista">Lista de habilidades</a></p>
-        <p><a href="#foto">Minha foto</a></p>
-        <p><a href="#blog">Meu passatempo favorito</a></p>
-
-    
-
+        <h3 class="sub-titulo">Índice:</h3>
+        <ul class="back-lista">
+        <li><a href="#foto">Esta é a minha foto</a></li>
+        <li id="blog"><a href="https://www.hipertrofia.org/blog/" target="_blank">Este é um dos meus blogs preferidos</a></li>
+        <li><a href="#sobre">Sobre mim</a></li>
+        <li><a href="#lista">Lista de habilidades</a></li>
+        <li><a href="#foto">Minha foto</a></li>
+        <li id="blog"><a href="https://playvalorant.com/pt-br/" target="_blank">Meu passatempo preferido</a></li>
+        </ul>
     
 </body>
 </html>
