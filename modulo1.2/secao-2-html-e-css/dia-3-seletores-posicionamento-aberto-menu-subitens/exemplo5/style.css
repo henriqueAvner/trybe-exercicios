@@ -28,3 +28,27 @@ li em{
 .cor-rosa{
     background-color: pink;
 }
+
+#aliados-dev li a:hover{
+    font-weight: bold;
+
+}
+#aliados-dev li a:hover[href*="stackoverflow"]{
+    color: orange;
+}
+
+#aliados-dev li a:hover[href*="w3schools"]{
+    color: green;
+}
+
+#aliados-dev li a:hover[href*="mozilla"]{
+    color: black;
+}
+
+#aliados-dev li a:hover[href*="devdocs"]{
+    color: yellow;
+}
+
+#aliados-dev li a:hover[href*="trybe"]{
+    color: green;
+}
