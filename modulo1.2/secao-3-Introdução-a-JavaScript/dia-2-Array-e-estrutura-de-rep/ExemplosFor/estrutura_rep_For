@@ -1,0 +1,9 @@
+A sintaxe do for é composta por três instruções, que definem:
+
+1. Inicialização: Todo loop precisa de um início, e é aqui que definimos que lugar é esse. Nessa primeira etapa criamos a variável de controle que guarda o valor inicial do loop. Costumamos nomear essa variável de index;
+
+
+2. Condição de parada: Na grande maioria dos casos, você vai querer que esse loop pare! Caso contrário, sua repetição vai executar de forma infinita. E acredite, você não quer que isso aconteça! Nesta etapa é onde definimos qual é a condição que determina se a repetição deve ou não continuar. Essa condição verifica se a variável de controle criada anteriormente ainda atende os critérios definidos;
+
+
+3. Atualização: Por fim, essa é a etapa que incrementa (ou decrementa, dependendo da lógica) a variável de controle. Essa atualização é que vai permitir que eventualmente a condição do loop seja falsa, encerrando sua execução. Se essa etapa não for feita, muito provavelmente você terá uma repetição infinita.
