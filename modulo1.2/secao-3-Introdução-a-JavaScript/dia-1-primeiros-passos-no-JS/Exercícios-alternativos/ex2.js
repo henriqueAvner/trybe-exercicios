@@ -10,3 +10,5 @@ if (num1 > num2 && num1 > num3){
     maiorNum = num3;
 }
 console.log('O maior número é: ' + maiorNum);
+
+//exercicio de maior numero
