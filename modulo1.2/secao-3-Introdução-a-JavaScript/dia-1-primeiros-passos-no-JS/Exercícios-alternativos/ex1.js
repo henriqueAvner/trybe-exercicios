@@ -9,3 +9,5 @@ if (nota1+nota2 >= 60){
     mediaNota = "Infelizmente, você foi reprovado";
 }
 console.log(mediaNota);
+
+//exercício de média de nota.
