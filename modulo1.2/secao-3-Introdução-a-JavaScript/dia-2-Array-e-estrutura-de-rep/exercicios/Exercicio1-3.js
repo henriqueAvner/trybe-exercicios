@@ -10,3 +10,5 @@ for (let index = 0; index < numbers.length; index += 1){
 
 console.log(`A soma dos valores do Array é ${soma}`);
 console.log(`A média dos valores somados é ${mediaArray}`);
+
+//Exercicio de média dos valores da array*
