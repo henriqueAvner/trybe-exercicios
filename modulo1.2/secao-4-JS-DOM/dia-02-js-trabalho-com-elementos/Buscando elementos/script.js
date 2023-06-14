@@ -15,6 +15,6 @@ const reqSix = reqOne.nextSibling;
 //Acesse o third-child a partir de where-are-you.
 const reqSeven = reqOne.nextElementSibling;
 //Acesse o third-child a partir de parent.
-const reqEight = document.getElementById('third-child');
-const reqFinal = reqEight.parentElement;
+const reqEight = document.getElementById('parent');
+const reqFinal = reqEight.lastElementChild.previousElementSibling
 
