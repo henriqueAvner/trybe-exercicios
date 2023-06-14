@@ -57,17 +57,21 @@
   </head>
   <body>
     <script>
-     let tituloPag = document.createElement('h1');
+      const tituloPag = document.createElement('h1');
      tituloPag.innerText = 'TrybeTrip - Agêngia de Viagens';
-     let corpo = document.getElementsByTagName('body');
-     corpo[0].appendChild(tituloPag);
-    
+     document.body.appendChild(tituloPag);
 
      const principal = document.createElement('main');
      principal.className = 'main-content';
-     document.body.appendChil(principal);
+     document.body.appendChild(principal);
 
      const tagSection = document.createElement('section');
+     tagSection.className = 'center-content';
+     principal.appendChild(tagSection);
+
+    const paragraph = document.createElement('p');
+    paragraph.innerText = 'Uma agência que te proporcionará uma incrível viagem pelo mundo dos códigos';
+    tagSection.appendChild(paragraph);
     </script>
   </body>
 </html>
