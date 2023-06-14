@@ -57,10 +57,17 @@
   </head>
   <body>
     <script>
-     const tituloPag = document.createElement('h1');
+     let tituloPag = document.createElement('h1');
      tituloPag.innerText = 'TrybeTrip - Agêngia de Viagens';
-     document.body.appendChild(tituloPag);
-     
+     let corpo = document.getElementsByTagName('body');
+     corpo[0].appendChild(tituloPag);
+    
+
+     const principal = document.createElement('main');
+     principal.className = 'main-content';
+     document.body.appendChil(principal);
+
+     const tagSection = document.createElement('section');
     </script>
   </body>
 </html>
