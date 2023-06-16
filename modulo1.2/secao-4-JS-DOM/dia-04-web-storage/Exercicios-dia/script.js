@@ -34,6 +34,7 @@ window.onload = () => {
       for (let index = 0; index < paragraphs.length; index += 1) {
         paragraphs[index].style.fontFamily = family
       }
+      localStorage.setItem('typeFont', family); //resolução
     }
   
     // Cor de fundo da tela;
