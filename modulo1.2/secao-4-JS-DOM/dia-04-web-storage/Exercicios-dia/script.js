@@ -26,6 +26,7 @@ window.onload = () => {
       for (let index = 0; index < paragraphs.length; index += 1) {
         paragraphs[index].style.lineHeight = height
       }
+      localStorage.setItem('espaçoLinha', height); // resolução
     }
   
     const setFontFamily = (family) => {
