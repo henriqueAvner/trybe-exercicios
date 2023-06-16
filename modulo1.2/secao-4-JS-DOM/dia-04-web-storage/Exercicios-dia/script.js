@@ -10,6 +10,7 @@ window.onload = () => {
       for (let index = 0; index < paragraphs.length; index += 1) {
         paragraphs[index].style.color = color
       }
+      localStorage.setItem('fontColor', color); // resolução
     }
   
     const setFontSize = (size) => {
@@ -17,6 +18,7 @@ window.onload = () => {
       for (let index = 0; index < paragraphs.length; index += 1) {
         paragraphs[index].style.fontSize = size
       }
+      localStorage.setItem('tamanhoFonte', size); // resolução
     }
   
     const setLineHeight = (height) => {
