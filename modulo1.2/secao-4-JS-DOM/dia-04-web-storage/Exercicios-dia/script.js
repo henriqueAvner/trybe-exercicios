@@ -26,7 +26,7 @@ window.onload = () => {
       for (let index = 0; index < paragraphs.length; index += 1) {
         paragraphs[index].style.lineHeight = height
       }
-      localStorage.setItem('espaçoLinha', height); // resolução
+      localStorage.setItem('espacoLinha', height); // resolução
     }
   
     const setFontFamily = (family) => {
@@ -78,4 +78,23 @@ window.onload = () => {
     }
   }
 
-  
+
+ const salvaCor = () => {
+
+  let backgroundColor = localStorage.getItem("backgroundColor")
+  if (backgroundColor) setBackgroundColor(backgroundColor)
+
+  let fontColor = localStorage.getItem("fontColor");
+  if (fontColor) setFontColor(color);
+
+  let fontSize = localStorage.getItem("tamanhoFonte");
+  if (fontSize) setFontSize(size);
+
+  let lineHeight = localStorage.getItem("espacoLinha");
+  if (lineHeight) setLineHeight(height);
+
+  let fontFamily = localStorage.getItem("typeFont");
+  if (fontFamily) setFontFamily(family);
+}
+
+salvaCor()
