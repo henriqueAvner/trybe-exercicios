@@ -9,9 +9,9 @@
   <body>
     <h1 id="title" class="display-5 text-center">Formulário Trybe Travel</h1>
 
-    <form id="main-form">
-      <fieldset>
-      <label for="fullName">Nome Completo:</label>
+    <form id="main-form" class="text-center">
+      <fieldset class="form-check form-switch">
+      <label for="fullName" class="form-check-label" for="flexSwitchCheckDefault">Nome Completo:</label>
       <input
         type="text" class="form-label"
         id="fullName"
@@ -21,7 +21,7 @@
         minlength="10"
         required
       /><br>
-      <label for="email" class="form-label">Endereço de E-mail:</label>
+      <label for="email" class="form-label" class="form-check-label" for="flexSwitchCheckDefault">Endereço de E-mail:</label>
       <input
         type="email"
         id="email"
@@ -30,44 +30,45 @@
         maxlength="50"
         minlength="10"
         required
-      /><br>
+      /><br><br>
 
+      <input
+      type="radio"
+      id="destination1"
+      className="radios"
+      name="destinations"
+      value="Cidade"
+      required
+      />
       <label for="destination1">Cidade</label>
       <input
-        type="radio"
-        id="destination1"
-        className="radios"
-        name="destinations"
-        value="Cidade"
-        required
+      type="radio"
+      id="destination2"
+      className="radios"
+      name="destinations"
+      value="Campo"
+      required
       />
       <label for="destination2">Campo</label>
       <input
-        type="radio"
-        id="destination2"
-        className="radios"
-        name="destinations"
-        value="Campo"
-        required
+      type="radio"
+      id="destination3"
+      className="radios"
+      name="destinations"
+      value="Praia"
+      required
       />
       <label for="destination3">Praia</label>
       <input
-        type="radio"
-        id="destination3"
-        className="radios"
-        name="destinations"
-        value="Praia"
-        required
+      type="radio"
+      id="destination4"
+      className="radios"
+      name="destinations"
+      value="Montanhas"
+      required
       />
       <label for="destination4">Montanhas</label>
-      <input
-        type="radio"
-        id="destination4"
-        className="radios"
-        name="destinations"
-        value="Montanhas"
-        required
-      />
+      <br><br>
       <label for="question">
         Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso
         TrybeTravel
@@ -81,20 +82,20 @@
         placeholder="Digite sua resposta vencedora aqui"
         maxlength="500"
       >
-      </textarea>
+      </textarea><br>
       <label for="date">Qual a melhor data para realizar sua viagem?</label>
       <input type="date" id="date" />
       <br />
+      <input type="checkbox" name="agreement" id="agreement" />
       <label for="promo">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe.
       </label>
-      <input type="checkbox" name="promo" id="promo" />
       <br />
+      <input type="checkbox" name="agreement" id="agreement" required />
       <label for="agreement">Concordo que imagens de minhas férias poderão ser usadas na divulgação de concursos futuros.
       </label>
-      <input type="checkbox" name="agreement" id="agreement" required />
       </fieldset>
-      <button type="submit" id="submit-btn" disabled>Enviar</button>
-      <button type="reset" id="clear-btn">Limpar</button>
+      <button type="submit" id="submit-btn" class="btn btn-success btn btn-primary btn-lg" disabled>Enviar</button>
+      <button type="reset" id="clear-btn" class="btn btn-danger btn btn-primary btn-lg">Limpar</button>
     </form>
   </body>
 </html>
