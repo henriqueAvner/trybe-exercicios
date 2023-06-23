@@ -1,0 +1,46 @@
+Para utilizar o flexbox, é necessario criar um flex container.
+Qualquer elemento html pode ser um container flexivel;
+FLEX ITENS - elementos html dentro de um container;.
+
+Para informar que um elemento HTML é um flex container, deve-se atribuir a propriedade display flex nele:
+
+ .flex-container {
+    display:flex;
+ }
+
+ Flex AXIS - são os eixos que definem as flex-directions, ou seja, o layout do flexbox;
+
+ Flex LINES - linhas imaginarias usadas no agrupamento e alinhamento de flex itens;
+
+EX: propriedade flex-wrap:
+
+ -> single-line: dispoe os seus filhos (flex itens) em uma unica linha;
+ -> multi-line: que os flex itens em mais linhas, no caso de um texto ser muito extenso.
+
+ FLexbox Layout:
+ - ja vem dentro do prorio css (nao precisa de biblioteca);
+
+ - disponivel artaves da propriedade display;
+
+ - Aplica tanto no container quanto nos itens (manipula tanto o elemente quanto seus itens internos);
+
+ - Layout mais flexivel para paginas mais atuais;
+
+
+Main Axis - Elementos se dispõem na horizontal;
+
+
+
+Cross Axis - Elementos se dispõem na vertical;
+(flex-direction: column;)
+
+A propriedade flex-direction dita quem é a main.
+
+A propriedade flex-wrap quebra a linha do conteudo pra proxima;
+
+A propriedade flex-flow junta as 2 propriedades, podendo receber o valor das duas anteriores, sendo o primeiro valor o flex-direction e o segundo flex-wrap;
+
+
+
+
+
