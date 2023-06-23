@@ -42,5 +42,18 @@ A propriedade flex-flow junta as 2 propriedades, podendo receber o valor das dua
 
 
 
+POSICIONANDO E ALINHANDO ITENS EM UM CONTAINER:
+
+
+
+justify-content - ajusta o espaçamento entre os flex-items;
+utiliza sempre o MAIN-AXIS;
+
+align-items - alinha elementos no CROSS-AXIS, ou seja, no eixo transversal;
+parecido com o justify-items, porem alinhas os itens como um todo;
+
+ align-content - Ajusta o espaçamento entre as linhas, junto com o align-itens;
+
+ sempre em relação ao CROSS AXIS.
 
 
