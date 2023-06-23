@@ -1,0 +1,124 @@
+1 - tag form
+ela é a tag para a criação de formulários:
+<form action ="" method="GET"> 
+    Aqui dentro vem o formulário
+
+    <input type="text" name="texto"> // aqui vem a caixa onde o texto será digitado
+
+</form>
+
+<button type="submit">Enviar</button> // esse botao envia o que está escrito no formulario para a URL
+
+- o method="GET" faz com que o que for digitado no formulario vá para a propria página (barra da URL);
+
+
+DENTRO DO FORM: 
+ - utilizando o método POST, voce deve utilizar o valor enctype="multipart/form-data". isso quer dizer que a submissao dos dados nao é apenas de texto, mas tambem de arquivos.
+
+
+Propriedades do input 
+
+ - placeholder -> texto que fica dentro da caixa como uma especie de direcionamento para o que a pessoa pode fazer;
+
+ - required -> Deixa o campo do input como obrigatório;
+
+ - class -> Podemos colocar classes e estilizar;
+
+ - value -> ja deixa o input preenchido;
+
+ - id -> Podemos dar uma ID para identificar o input;
+
+ - name -> é o nome do input;
+
+ - label -> explicar qual é o campo que estamos usando;
+    for na label -> identificar o que fazer com o input;
+
+- password -> tipo de senha, para digitar e aparecer em bolinhas;
+
+- file -> botao para escolher arquivos de imagem dentro do pc;
+
+
+
+
+
+- é possível colocar o meu ID dentro do FOR da minha label, existindo um vinculo entre os 2;
+
+- textarea -> é um campo onde se é possivel colocar mais informações;
+
+
+- type='checkbox' -> uma caixa de checkzinho dentro do checkbox;
+
+(para que os checkbox estejam juntos, eles precisam ter O MESMO NAME)
+
+type='radio' -> uma caixa de check em forma de circulo;
+com o name = "hub" ele seleciona apenas 1 caixa, com o "hubs" ele seleciona mais de 1;
+
+TAG select :
+
+dentro dela, utilizamos a tag option, para colocar quantas opções voce quiser;
+
+
+
+
+
+TIPOS DE INPUT TYPE:
+
+text	
+Campo de entrada de texto de linha única.
+
+password	
+Os caracteres do campo de senha são mascarados (mostrados como asteriscos ou círculos).
+
+email	
+Campos de entrada que devem conter um endereço de e-mail.
+
+number	
+Define um campo de entrada numérico.
+
+checkbox	
+Permite que a pessoa usuária selecione zero ou mais opções de um número limitado de escolhas.
+
+radio	
+Permite que uma pessoa usuária selecione apenas uma de um número limitado de opções.
+
+file	
+Campo de seleção de arquivo e um botão “Procurar” para uploads de arquivos.
+
+submit	
+Envia dados de formulário a um manipulador de formulários (especificado na action do form).
+
+reset	
+Redefine todos os valores do formulário para seus valores padrão.
+
+
+TIPOS DE INPUT NAME:
+
+name	
+Define o nome do elemento que é usado para identificar o valor do elemento quando o formulário é enviado.
+
+value	
+Define um valor inicial para o elemento.
+
+placeholder	
+Define um texto de ajuda temporário que aparece dentro do elemento de entrada quando ele está vazio.
+
+required	
+Define se o elemento é obrigatório ou não.
+
+readonly	
+Define se o elemento é somente leitura ou não.
+
+disabled	
+Define se o elemento está desativado ou não.
+
+size	
+Define o tamanho do elemento de entrada.
+
+maxlength	
+Define o número máximo de caracteres que podem ser inseridos no elemento.
+
+min e max	
+Redefine todos os valores do formulário para seus valores padrão.
+
+step	
+Define o valor do intervalo entre os valores permitidos para um elemento do tipo number.
