@@ -66,7 +66,7 @@
   
   .card-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     justify-content: space-around;
   }
   
@@ -79,6 +79,7 @@
     justify-content: center;
     margin: 10px;
     flex-basis: 16%;
+    flex-grow: 1;
   }
   
   .aside-container {
