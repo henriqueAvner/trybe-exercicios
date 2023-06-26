@@ -1,0 +1,23 @@
+PROPRIEDADES:
+
+align-self:
+
+Dentro de um flex container, é possivel editar a posição de um item individualmente com base em sua CLASE, seu PSEUDO-CLASSE ou em seu ID.
+
+order:
+
+Serve para ordernar seus itens dentro do container ex: order: 1.
+Vale ressaltar que a propriedade order aceita valores negativos:
+ex.: order: -1;
+
+flex-basis:
+
+Define o tamanho base de um item no conteiner.
+
+flex-shrink:
+
+Define o quanto um item será comprimido em relação aos demais
+
+flex-grow:
+
+Define o quanto um item pode crescer em relação aos demais, em casos onde há espaço disponivel.
