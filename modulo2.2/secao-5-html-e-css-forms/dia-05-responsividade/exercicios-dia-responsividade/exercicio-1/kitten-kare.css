@@ -89,3 +89,18 @@
         flex-direction: column;
     }
   }
+
+  @media (max-width: 768px){
+    #aside {
+        display: none;
+    }
+    img {
+        max-width: 768px;
+    }
+    #navigation ul {
+        flex-direction: column;
+    }
+    #header {
+        position: fixed;
+    }
+  }
