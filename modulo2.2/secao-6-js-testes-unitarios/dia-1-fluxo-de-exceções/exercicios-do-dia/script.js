@@ -116,7 +116,15 @@ const findPersonByName = (name) => {
 };
 
 const findPersonByPosition = (position) => {
-  // seu código aqui
+  try{
+    const findPerson = clients[position];
+    if(!findPerson){
+      throw new Error ('Posição inválida, tente novamente');
+    }
+    return `Cliente: ${findPerson.name}. email ${findPerson.email}`;
+  }catch(error){
+    return error.message;
+  }
 };
 
 const findPeopleByState = (state) => {
