@@ -1,0 +1,30 @@
+JEST comandos / estrutura:
+
+Dentro do arquivo package.json, sempre trocar o conteudo de "test" por "jest" para executar o framework.
+
+DESCRIBE -> grupos de testes para o projeto;
+
+it -> diferencia os testes dentro do describe, para cada "it" dentro do describe, ocorre um teste.
+
+expect -> qual seria o valor esperado de retorno daquele teste, dentro do parenteses se coloca o que se espera (por exemplo o true);
+
+.toEqual -> essa função descreve valores ESTRITAMENTE IGUAIS dentro de ARRAYS E OBJETOS.
+
+
+ESTRUTURA:
+
+describe('Descrição do que ele é', () => {
+    it('Descrição do que esse teste it espera', () => {
+        expect('o que se espera de retorno do teste').toEqual('função que se quer testar'(parâmetro da função));
+    });
+});
+
+EXEMPLO:
+
+decribe('Requisito 1', () => {
+    it('A função recebe [1,2,3,4,5] e retorna true', () => {
+        expect(true).toEqual(numeros([1,2,3,4,5]));
+    });
+});
+
+-> Nesse caso, temos uma função com um array de 5 números, nosso teste espera que a função retorne TRUE, quando a função NUMEROS for chamada com o parâmetro igual ao array dentro dela mesma.
