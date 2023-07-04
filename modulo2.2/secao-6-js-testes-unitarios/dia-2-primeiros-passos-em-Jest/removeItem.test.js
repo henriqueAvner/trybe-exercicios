@@ -11,6 +11,3 @@ describe('Requisito1', () => {
         expect([1, 2, 3, 4]).toEqual(removeItem([1, 2, 3, 4], 5))
     })
 })
-
-
-expect(removeItem([1, 2, 3, 4], 3)).not.toEqual([1, 2, 3, 4]);
