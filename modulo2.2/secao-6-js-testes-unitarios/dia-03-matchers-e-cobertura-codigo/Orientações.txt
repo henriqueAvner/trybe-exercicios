@@ -1,0 +1,4 @@
+Matchers em ARRAYS:
+.toContain() -> verifica se possui x valor dentro do array da função que apresentei;
+
+
