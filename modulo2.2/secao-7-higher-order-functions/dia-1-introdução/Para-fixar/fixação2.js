@@ -7,14 +7,17 @@ numbers.find((number) => {
   }
 );
 console.log(numbers.find((number) => number % 3 === 0 && number % 5 === 0));
+//
 
 const names = ['João', 'Irene', 'Fernando', 'Maria'];
 
 names.find((name) => name.length === 5);
 console.log(names.find((name) => name.length === 5));
 
+//
 
 //
+
 const musicas = [
     { id: '31031685', title: 'Partita in C moll BWV 997' },
     { id: '31031686', title: 'Toccata and Fugue, BWV 565' },
@@ -23,3 +26,5 @@ const musicas = [
   
 musicas.find((musica) => musica.id === '31031685');
 console.log(musicas.find((musica) => musica.id === '31031685'))
+
+//
