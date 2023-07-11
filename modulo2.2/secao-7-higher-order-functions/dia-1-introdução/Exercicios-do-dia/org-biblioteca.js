@@ -113,3 +113,15 @@ const expectedResult5 = true;
 const someBookWasReleaseOnThe80s = () => {
   return books.some((book) => book.releaseYear >= 1980 || book.releaseYear <= 1989);
 }
+
+//
+
+const expectedResult6 = false;
+
+const authorUnique = () => {
+  return books.every((book) =>
+    !books.some((bookSome) =>
+      (bookSome.author.birthYear === book.author.birthYear)
+      && (bookSome.author.name !== book.author.name)));
+}
+
