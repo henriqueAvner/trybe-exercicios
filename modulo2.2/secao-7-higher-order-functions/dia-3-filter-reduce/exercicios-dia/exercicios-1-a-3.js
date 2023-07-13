@@ -96,4 +96,3 @@ const longestName = () => {
     }
   })
 }
-console.log(longestName());
