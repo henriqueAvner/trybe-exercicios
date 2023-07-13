@@ -70,3 +70,8 @@ const expectedResult = 120797034;
 const getPopulation = () => countries
 .reduce((acc, curr) => acc + curr.population, 0);
 
+//
+
+const expectedResult2 = 4311757;
+const getTotalArea = () => countries
+.reduce((acc, curr) => acc + curr.area,0);
