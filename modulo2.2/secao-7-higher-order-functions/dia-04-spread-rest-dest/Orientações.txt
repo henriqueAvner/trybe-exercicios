@@ -1,0 +1,11 @@
+SPREAD OPERATOR:
+
+-> Serve para criar um objeto novo a partir de um objeto já existente;
+
+const arr = [0,1,2];
+const newArr = [...arr, 3]
+
+O que aconteceu? -> Eu quis mais um valor dentro do array (arr), no caso o 3. Entao, criei um novo array, e, utilizando spread operator no array arr (...arr), eu criei um novo array, dessa vez com o número 3.
+
+Resumindo, ao utilizar o "...arr", eu introduzi os valores do array, dentro do array novo, de forma a espalhá-los na mesma sequencia em que se encontravam no 1 array.
+
