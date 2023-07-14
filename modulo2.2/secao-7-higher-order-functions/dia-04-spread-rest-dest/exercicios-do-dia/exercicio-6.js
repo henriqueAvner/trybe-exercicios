@@ -6,4 +6,8 @@ const yearSeasons = {
     winter: ['December', 'January', 'February'],
   };
   // yearSeasons: estações do ano.
-  
+
+  const {spring, summer, autumn, winter} = yearSeasons;
+
+  const monthsOfYear = [...spring, ...summer, ...autumn, ...winter];
+  console.log(monthsOfYear);
