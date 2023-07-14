@@ -1,0 +1,49 @@
+SPREAD OPERATOR:
+
+-> Serve para criar um objeto novo a partir de um objeto já existente;
+
+const arr = [0,1,2];
+const newArr = [...arr, 3]
+
+O que aconteceu? -> Eu quis mais um valor dentro do array (arr), no caso o 3. Entao, criei um novo array, e, utilizando spread operator no array arr (...arr), eu criei um novo array, dessa vez com o número 3.
+
+Resumindo, ao utilizar o "...arr", eu introduzi os valores do array, dentro do array novo, de forma a espalhá-los na mesma sequencia em que se encontravam no 1 array.
+
+
+
+REST PARAMETERS:
+
+-> Transforma os argumentos de uma função, em um array;
+
+const showName = (...fullName) => {
+    console.log(fullName);
+}
+showName('Roger', 'Melo');
+
+Ao chamar essa função, ela retornará na tela: 
+['Roger', 'Melo'];
+
+O que aconteceu? -> Ao utilizar como parametro da função showName um REST PARAMETER (...fullName) nós fizemos com que, o que passássemos como parametro na chamada da função showName('Roger', 'Melo'), seria retornado como um ARRAY, pois é isso que o rest faz.
+
+
+OBJECT DESTRUCTURING
+
+-> Ao invés de, acessar-mos chaves de objetos gastando muitas linhas, podemos simplesmente declarar os valores de uma vez, de modo que o que acessamos, seja liberado. Além disso, podemos declarar / utilizar um valor do objeto, sem que precisemos utilizar muitos '.' para ir atrás dele.
+
+const avner ={
+    nome: avner,
+    altura: 1.83,
+    idade: 24,
+    cor: preto,
+    ocupação: dev
+};
+
+Aqui, temos um objeto, e para acessarmos cada parte dele, utilizariamos por exemplo avner.nome, avner.altura, etc.
+
+com o OBJECT DESTRUCTURING, basta declararmos as chaves de uma vez, que todo valor será retornado:
+
+const = { nome, altura, idade, cor, ocupação} = avner;
+
+-> primeiro vem as chaves que eu quero, e depois de onde eu quero essas chaves.
+
+mais exemplos no JS ->
